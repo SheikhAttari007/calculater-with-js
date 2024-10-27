@@ -13,9 +13,11 @@ function result(){
     input.value = ans 
 }
 
-function removeValue (){
+function removeValue(){
     var input = document.getElementById("input");
     var copy = input.value.slice(0,-1)
     console.log("copy",copy)
     input.value = copy
+    
 }
+   
