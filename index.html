@@ -13,33 +13,38 @@
         <div class="body">
             <table>
                 <tr>
+                    <td onclick="allClear()">AC</td>
+                    <td onclick="inputValue(C)">C</td>
+                    <td onclick="inputValue('%')">%</td>
+                    <td onclick="inputValue('/')">/</td>
+                </tr><br />
+                <tr>
                     <td onclick="inputValue(7)">7</td>
                     <td onclick="inputValue(8)">8</td>
                     <td onclick="inputValue(9)">9</td>
-                    <td onclick="inputValue('-')">-</td>
-                    <td onclick="inputValue(0)">0</td>
+                    <td onclick="inputValue('*')">x</td>
+                    
 
                 </tr><br />
                 <tr>
                     <td onclick="inputValue(4)">4</td>
                     <td onclick="inputValue(5)">5</td>
                     <td onclick="inputValue(6)">6</td>
-                    <td onclick="inputValue('+')">+</td>
-                    <td onclick="inputValue('00')">00</td>
-
+                    <td onclick="inputValue('-')">-</td>
                 </tr><br />
                 <tr>
                     <td onclick="inputValue(1)">1</td>
                     <td onclick="inputValue(2)">2</td>
                     <td onclick="inputValue(3)">3</td>
-                    <td onclick="inputValue('*')">*</td>
+                    <td onclick="inputValue('+')">+</td>
 
                 </tr><br />
                
                 <tr>
-                    <td onclick="removeValue()">C</td>
-                    <td onclick="allClear()">AC</td>
-                    <td onclick="result()">=</td>
+                    <td onclick="inputValue(0)">0</td>
+                    <td onclick="inputValue('00')">00</td>
+                    <td onclick="inputValue('.')">.</td>
+                    <td style="background-color: orangered;" onclick="result()">=</td>
 
 
                 
