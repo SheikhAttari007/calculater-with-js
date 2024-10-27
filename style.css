@@ -64,3 +64,18 @@ text-align: center;
         margin:0;
         padding-top:50px ;
     }
+   @media screen and  (max-width: 700px){
+    .container {
+       margin-left: 180px;
+       background-color: blue;
+
+    }
+   }
+   @media screen and  (max-width: 385px){
+    .container {
+        margin-left: 35px;
+
+    }
+   }
+    
+   
